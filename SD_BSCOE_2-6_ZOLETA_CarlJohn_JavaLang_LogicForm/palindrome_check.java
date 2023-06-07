@@ -2,7 +2,7 @@
 
 public class palindrome_check {
     public static void main(String[] args) {
-        String original = "nurse"; // This is the string to be checked
+        String original = "racecar"; // This is the string to be checked
         original = original.replace(" ", ""); // this removes all the spaces if the word/s contain/s spaces on between
         String reversed = "";
 
@@ -22,12 +22,16 @@ public class palindrome_check {
 
         // if statement that tell the string is a palindrome
         if(palindrome){
+            System.out.println("=============================================");
             System.out.println("The word, " + original + ", is a PALINDROME.");
+            System.out.println("=============================================");
         }
 
         // else statement if the word is not a palindrome
         else{
+            System.out.println("=============================================");
             System.out.println("The word, " + original + ", is NOT A PALINDROME.");
+            System.out.println("=============================================");
         }
     }
 }
